@@ -6,7 +6,7 @@ import com.example.libraryapp.repository.Repository
 import com.example.libraryapp.room.BookEntity
 import kotlinx.coroutines.launch
 
-class BokViewModel (val repository: Repository): ViewModel(){
+class BookViewModel (val repository: Repository): ViewModel(){
 
     fun addBook(book: BookEntity){
         viewModelScope.launch {

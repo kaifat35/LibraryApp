@@ -63,4 +63,7 @@ dependencies {
     implementation (libs.androidx.room.ktx)
     ksp (libs.androidx.room.compiler)
     implementation (libs.kotlinx.coroutines.android)
+
+    //навигация
+    implementation (libs.androidx.navigation.compose)
 }
